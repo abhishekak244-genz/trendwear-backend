@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Subscriber = require("../models/Subscriber"); // We only need to import this once!
+const Subscriber = require("../models/subscriber"); 
 
 // @route POST /api/subscribe
 // @desc Handle newsletter subscription
