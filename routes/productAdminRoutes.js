@@ -1,5 +1,5 @@
 const express = require("express");
-const Product = require("../models/Product");
+const Product = require("../models/product");
 const { protect, admin } = require("../middleware/authMiddleware");
 
 // Note: Missing the router initialization statement here in the screenshot,
